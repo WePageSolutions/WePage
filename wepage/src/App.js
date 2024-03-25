@@ -1,10 +1,13 @@
-import Navbar from "./Components/Navbar" ;
-import MainVideo from "./Components/MainVideo" ;
+import Navbar from "./components/Navbar" ;
+import MainVideo from "./components/MainVideo";
+import OurHistory from "./components/OurHistory";
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <MainVideo/>
+      <MainVideo />
+      <OurHistory/>
     </div>
   );
 }
